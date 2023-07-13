@@ -87,7 +87,7 @@ Edit data with id
 
 ```bash
 curl --location --request PUT 'https://nestjs.gritsp.dev/users/<_id>' \
---header 'Authorization: 20scoops' \
+--header 'Authorization: <passphrase>' \
 --data '{
 		"firstname": "string",
     "lastname": "string",
@@ -101,5 +101,5 @@ Delete data with id
 
 ```bash
 curl --location --request DELETE 'https://nestjs.gritsp.dev/users/<_id>' \
---header 'Authorization: 20scoops' 
+--header 'Authorization: <passphrase>' 
 ```
